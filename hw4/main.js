@@ -146,4 +146,16 @@ let result0 = swap([21,23,53,74],0,2)
 console.log(result0)
 //- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
-
+let currency = [
+    {currency:'USD',value:40},
+    {currency:'EUR',value:42},
+];
+function exchange(sumUAH, currencyValues, exchangeCurrency){
+    for (const currencyValue of currencyValues) {
+        if (currencyValue.currency === exchangeCurrency){
+            return sumUAH/currencyValue.value
+        }
+    }
+}
+let resultofexchange = exchange(100000,currency,'EUR')
+console.log(resultofexchange)
