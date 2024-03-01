@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51d8defa-be95-47c1-b18d-3dbc95f53bdc" name="Changes" comment="зробив дз 2.0">
-      <change afterPath="$PROJECT_DIR$/hw4/hw4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
       <workItem from="1709088735169" duration="6937000" />
       <workItem from="1709139974809" duration="598000" />
       <workItem from="1709257061320" duration="9359000" />
+      <workItem from="1709296506624" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="зробив дз 2.0">
       <option name="closed" value="true" />
