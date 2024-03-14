@@ -80,8 +80,10 @@ class Cars {
         this.enginecap = enginecap
     }
 }
+
 let arrayofcars = new Cars('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
 console.log(arrayofcars)
+
 class carPlus extends Cars {
     constructor(...add) {
         super(...add);
@@ -90,12 +92,14 @@ class carPlus extends Cars {
         }
     }
 }
+
 let arrayofcars2 = new carPlus('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
 arrayofcars2.drive()
+
 class carPlus1 extends Cars {
     constructor(...add) {
         super(...add);
-        this.info = function (){
+        this.info = function () {
             console.log(`Бренд - ${this.brand}`)
             console.log(`Модель - ${this.model}`)
             console.log(`Концерн - ${this.author}`)
@@ -106,19 +110,23 @@ class carPlus1 extends Cars {
         }
     }
 }
+
 let carinfo = new carPlus1('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
 carinfo.info()
-class carPlus2 extends Cars{
+
+class carPlus2 extends Cars {
     constructor(...add) {
         super(...add);
-        this.increaseMaxSpeed = function (newSpeed){
-            console.log(`Нова макс. швидкість - ${this.maxspeed+newSpeed}`)
+        this.increaseMaxSpeed = function (newSpeed) {
+            console.log(`Нова макс. швидкість - ${this.maxspeed + newSpeed}`)
         }
     }
 }
+
 let increasemaxspeed = new carPlus2('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
 increasemaxspeed.increaseMaxSpeed(10)
-class carPlus3 extends Cars{
+
+class carPlus3 extends Cars {
     constructor(...add) {
         super(...add);
         this.changeYear = function (newValue) {
@@ -126,9 +134,11 @@ class carPlus3 extends Cars{
         }
     }
 }
+
 let changeYear = new carPlus3('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
 changeYear.changeYear(1920)
-class carPlus4 extends Cars{
+
+class carPlus4 extends Cars {
     constructor(...add) {
         super(...add);
         this.addDriver = function (name, surname) {
@@ -138,7 +148,35 @@ class carPlus4 extends Cars{
         }
     }
 }
-let driverchange = new carPlus4('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
-driverchange.addDriver('Shumaher','Shumaherovich')
-console.log(driverchange)
 
+let driverchange = new carPlus4('BMW', 'M5 F90', 'BMW Group', 1985, 308, 4.4)
+driverchange.addDriver('Shumaher', 'Shumaherovich')
+console.log(driverchange)
+//-створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
+// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+// Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+class Cinderellas {
+    constructor(name, age, feet) {
+        this.name = name
+        this.age = age
+        this.feet = feet
+    }
+}
+
+let cinderellas = [
+    new Cinderellas('Sofia', 19, 38),
+    new Cinderellas('Nastya', 22, 39),
+    new Cinderellas('Veronica', 18, 36),
+    new Cinderellas('Mia', 25, 41)
+]
+let prince = {
+    name: 'Albert',
+    age: 20,
+    shoefav: 38
+}
+for (const cinderella of cinderellas) {
+    if (cinderella.feet === prince.shoefav){
+        console.log(cinderella, prince)
+    }
+}
