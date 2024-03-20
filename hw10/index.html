@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<script>
+let currentDate = new Date()
+let datetimestring = currentDate.toLocaleString()
+let sessions = JSON.parse(localStorage.getItem('sessions')) || []
+sessions.push(datetimestring)
+localStorage.setItem('sessions', JSON.stringify(sessions))
+</script>
+</body>
+</html>

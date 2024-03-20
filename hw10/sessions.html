@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sessions</title>
+</head>
+<body>
+
+
+
+<script>
+    function readSessions() {
+        let ul = document.createElement('ul')
+        document.body.appendChild(ul)
+        let sessionsArray = JSON.parse(localStorage.getItem('sessions'))
+        for (const session of sessionsArray) {
+            let li = document.createElement('li')
+            li.innerText = session
+            ul.appendChild(li)
+        }
+    }
+
+    readSessions()
+</script>
+</body>
+</html>

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51d8defa-be95-47c1-b18d-3dbc95f53bdc" name="Changes" comment="зробив дз 2.0">
+      <change afterPath="$PROJECT_DIR$/hw10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw8/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw8/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw9/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,6 +79,8 @@
       <workItem from="1710289522992" duration="13875000" />
       <workItem from="1710376463779" duration="2205000" />
       <workItem from="1710454468805" duration="19452000" />
+      <workItem from="1710882108405" duration="2967000" />
+      <workItem from="1710886273441" duration="10235000" />
     </task>
     <task id="LOCAL-00001" summary="зробив дз 2.0">
       <option name="closed" value="true" />
